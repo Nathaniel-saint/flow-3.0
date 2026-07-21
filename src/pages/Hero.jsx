@@ -15,6 +15,8 @@ import logo4 from '/src/assets/brand-logo4.png'
 import Spline from "@splinetool/react-spline";
 import '../styles/Hero.css'
 import { HiSparkles } from "react-icons/hi2";
+import { FaArrowUp } from "react-icons/fa";
+
 
 
 function Hero(){
@@ -116,15 +118,18 @@ function Hero(){
                                 <h3 className="assist">
                                     AI Workflow Assistant
                                 </h3>
-                                <span>Suggested Prompts</span>
-
-                                <ul>
+                                <span className="suggestion">Suggested Prompts</span>
+                                <ul className="list-prompt">
                                     <li>Summarise todays Sprint</li>
                                     <li>Generate Release Note</li>
                                     <li>Generate Projects Roadmap</li>
                                     <li>Draft client email</li>
                                     <li>Build weekly report</li>
                                 </ul>
+                                <span className="question">
+                                    Ask Flow AI anything
+                                    <FaArrowUp size="2em"/>
+                                </span>
                             </div>
                             </div>
                         </div>
