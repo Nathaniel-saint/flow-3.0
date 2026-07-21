@@ -147,6 +147,7 @@
 .feature-title{
     font-family: 'Roboto', serif;
     font-size: 5rem;
+    font-weight:300;
     background: radial-gradient(circle at 70% 70%, #F7F5FD, #C3C0E4);
     background-clip: text;
     color: transparent;
@@ -211,7 +212,7 @@
 
 .roadmap-container{
     width: 100%;
-    height: 60rem;
+    height: 55rem;
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 40px 128px #0A101E;
@@ -231,4 +232,82 @@
 
 .new{
     width: 75%;
+    background: linear-gradient(270deg, #F7F5FD, #746dbd, #F7F5FD);
+    background-clip: text;
+    color: transparent;
+}
+
+.available{
+    width: 100%;
+}
+
+.release-date{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', serif;
+    gap: 0.6rem;
+}
+
+.release-day{
+    background: linear-gradient(to bottom, #2e1b57 70%, #9576e6);
+    padding: 0.3rem 0.4rem;
+    width: fit-content;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.what-was-it{
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.release-note{
+    font-weight: 300;
+    font-size: smaller;
+}
+
+.available-in-flow{
+    background: linear-gradient(-300deg, rgb(238, 232, 232) 50%, rgb(99, 65, 233), black 90%);
+    width: 50%;
+    height: 30rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 3rem;
+}
+
+.avail{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border: 0.001rem rgb(225, 225, 225) solid;
+    border-radius: 1rem;
+}
+
+.available-content{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.new-feat{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    font-family: 'Roboto', serif;
+    color: #8E86B5;
+    font-weight: 200;
+}
+
+.new-feat svg{
+    background-color: #A195C1;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    color: #0A101E;
 }

@@ -14,6 +14,8 @@ import logo3 from '/src/assets/brand-logo3.png'
 import logo4 from '/src/assets/brand-logo4.png'
 import Spline from "@splinetool/react-spline";
 import '../styles/Hero.css'
+import { HiSparkles } from "react-icons/hi2";
+
 
 function Hero(){
     return(
@@ -95,6 +97,38 @@ function Hero(){
                 </div>
                     <span className="feature-version">Changelog</span>
                     <span className="feature-title new">Everything That's New.</span>
+
+                    <div className="available">
+                        <div className="release-date">
+                            <span className="release-day">July 21, 2026</span>
+                            <h3 className="what-was-it">
+                                AI Workspace
+                            </h3>
+                            <p className="release-note">Generate note, emails, and summaries directly in your workflow</p>
+                        </div>
+
+                        <div className="available-in-flow">
+                            <div className="avail">
+                            <div className="available-content">
+                                <div className="new-feat">
+                                    <HiSparkles size="1.3em"/><h4>New In Flow 3.0</h4>
+                                </div>
+                                <h3 className="assist">
+                                    AI Workflow Assistant
+                                </h3>
+                                <span>Suggested Prompts</span>
+
+                                <ul>
+                                    <li>Summarise todays Sprint</li>
+                                    <li>Generate Release Note</li>
+                                    <li>Generate Projects Roadmap</li>
+                                    <li>Draft client email</li>
+                                    <li>Build weekly report</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
             </div>            
         </div>
     );
