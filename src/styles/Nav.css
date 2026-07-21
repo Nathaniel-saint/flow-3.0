@@ -34,7 +34,7 @@
 .nav-links{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 55%;
     border-radius: 1rem;
     justify-content: space-around;
     align-self: center;

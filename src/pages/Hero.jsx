@@ -12,6 +12,7 @@ import logo1 from '/src/assets/brand-logo1.png'
 import logo2 from '/src/assets/brand-logo2.png'
 import logo3 from '/src/assets/brand-logo3.png'
 import logo4 from '/src/assets/brand-logo4.png'
+import Spline from "@splinetool/react-spline";
 import '../styles/Hero.css'
 
 function Hero(){
@@ -58,6 +59,42 @@ function Hero(){
                     <img src={logo3} alt="trusted brands" />
                     <img src={logo4} alt="trusted brands" />
                 </div>
+
+                <span className="feature-version">3.0 Features</span>
+                <span className="feature-title">Built For People Who Move Fast</span>
+
+                <div className="features">
+
+                    <div className="light-performance">
+                        <Spline scene="https://prod.spline.design/7Db1tcdw6t0izkil/scene.splinecode" />
+                        <div className="feature-text">
+                            <h3>AI Assistant</h3>
+                            <p>Generate content, summaries, and asign task to flow for easier automation. Be the orchastrator and let flow do the heavy lifting.</p>
+                        </div>
+                    </div>
+
+                    <div className="smater-interface">
+                        <Spline scene="https://prod.spline.design/7Db1tcdw6t0izkil/scene.splinecode" />
+                        <div className="feature-text">
+                            <h3>AI Assistant</h3>
+                            <p>Generate content, summaries, and asign task to flow for easier automation. Be the orchastrator and let flow do the heavy lifting.</p>
+                        </div>
+                    </div>
+
+                    <div className="ai-assist">
+                        <Spline scene="https://prod.spline.design/7Db1tcdw6t0izkil/scene.splinecode" />
+                        <div className="feature-text">
+                            <h3>AI Assistant</h3>
+                            <p>Generate content, summaries, and asign task to flow for easier automation. Be the orchastrator and let flow do the heavy lifting.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="roadmap-container">
+                    <span className="feature-version">Roadmap</span>
+                    <span className="feature-title">How We Got Here</span>
+                </div>
+                    <span className="feature-version">Changelog</span>
+                    <span className="feature-title new">Everything That's New.</span>
             </div>            
         </div>
     );

@@ -118,7 +118,7 @@
 }
 
 .brand-logos{
-    width: 70%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -129,7 +129,106 @@
 }
 
 .brand-logos img{
-    width: 7rem;
+    width: 12rem;
     filter: grayscale(50%);
     filter: brightness(0) invert(0.5);
+}
+
+.feature-version{
+    background: radial-gradient(circle at 45% 45%, #49347B, #231A42);
+    align-items: center;
+    align-self: center;
+    padding: 0.2rem 0.8rem;
+    border-radius: 1rem;
+    font-family: 'Roboto', serif;
+    color: #F6F7FC;
+}
+
+.feature-title{
+    font-family: 'Roboto', serif;
+    font-size: 5rem;
+    background: radial-gradient(circle at 70% 70%, #F7F5FD, #C3C0E4);
+    background-clip: text;
+    color: transparent;
+    width: 70%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.features {
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+
+.light-performance,
+.smater-interface{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background: #0f0a1c;
+    user-select: none;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+}
+
+.ai-assist{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    grid-column: span 2;
+    background: #0f0a1c;
+    border-radius: 2rem;
+}
+
+.features canvas {
+    width: 100% !important;
+    height: 20rem!important;
+    flex-shrink: 0;
+    align-self: center;
+    background: none;
+}
+
+.feature-text {
+    width: 100%;
+    height: fit-content;
+    background: radial-gradient(circle at 45% 50%, #8E86B5, #2a1e49);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    font-family: 'Roboto', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.roadmap-container{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 40px 128px #0A101E;
+    align-items: center;
+    /* background: #16182A; */
+    background: url('/src/assets/bg.png') no-repeat center/cover;
+    padding: 2.3rem;
+    border: none;
+    mask-image: linear-gradient(
+    to bottom, 
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 5%,   
+    rgba(0, 0, 0, 1) 80%,    
+    rgba(0, 0, 0, 0) 100%    
+);
+}
+
+.new{
+    width: 75%;
 }
