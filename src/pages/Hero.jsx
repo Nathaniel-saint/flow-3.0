@@ -14,6 +14,15 @@ import logo3 from '/src/assets/brand-logo3.png'
 import logo4 from '/src/assets/brand-logo4.png'
 import Spline from "@splinetool/react-spline";
 import '../styles/Hero.css'
+import { HiSparkles } from "react-icons/hi2";
+import { FaArrowUp } from "react-icons/fa";
+import { TbMicroscopeFilled } from "react-icons/tb";
+import { SiOmarchy } from "react-icons/si";
+import { GrTestDesktop } from "react-icons/gr";
+import { LuCircleDot } from "react-icons/lu";
+import { IoMdMegaphone } from "react-icons/io";
+
+
 
 function Hero(){
     return(
@@ -92,9 +101,85 @@ function Hero(){
                 <div className="roadmap-container">
                     <span className="feature-version">Roadmap</span>
                     <span className="feature-title">How We Got Here</span>
+
+                    <div className="timelines">
+                        <div className="first-cont"> 
+                            <TbMicroscopeFilled size="2.4em" className="first-iso"/>
+                            <p className="month">January</p>
+                            <span className="acc-1">Research</span>
+                            <div className="fist1"></div>
+                            <hr className="first"/>
+                        </div>
+                        <div className="second-cont">
+                            <SiOmarchy size="2.2em" className="second-iso"/>
+                            <p className="month2">March</p>
+                            <span className="acc-1">Private Beta</span>
+                            <div className="fist1"></div>
+                            <hr className="second"/>
+                        </div>
+
+                        <div className="third-cont">
+                            <GrTestDesktop size="2.2em" className="second-iso"/>
+                            <p className="month">April</p>
+                            <span className="acc-1">5000 Testers</span>
+                            <div className="fist1"></div>
+                            <hr className="third"/>
+                        </div>
+
+                        <div className="fourth-cont">
+                            <LuCircleDot size="2.2em" className="second-iso"/>
+                            <p className="month">May</p>
+                            <span className="acc-1">Perf Rewrite</span>
+                            <div className="fist1"></div>
+                            <hr className="fourth"/>
+                        </div>
+
+                        <div className="fifth-cont">
+                            <IoMdMegaphone size="2.2em" className="second-iso"/>
+                            <p className="month">June</p>
+                            <span className="acc-1">Public Release</span>
+                            <div className="fist1"></div>
+                            <hr className="fifth"/>
+                        </div>
+                    </div>
                 </div>
                     <span className="feature-version">Changelog</span>
                     <span className="feature-title new">Everything That's New.</span>
+
+                    <div className="available">
+                        <div className="release-date">
+                            <span className="release-day">July 21, 2026</span>
+                            <h3 className="what-was-it">
+                                AI Workspace
+                            </h3>
+                            <p className="release-note">Generate note, emails, and summaries directly in your workflow</p>
+                        </div>
+
+                        <div className="available-in-flow">
+                            <div className="avail">
+                            <div className="available-content">
+                                <div className="new-feat">
+                                    <HiSparkles size="1.3em"/><h4>New In Flow 3.0</h4>
+                                </div>
+                                <h3 className="assist">
+                                    AI Workflow Assistant
+                                </h3>
+                                <span className="suggestion">Suggested Prompts</span>
+                                <ul className="list-prompt">
+                                    <li>Summarise todays Sprint</li>
+                                    <li>Generate Release Note</li>
+                                    <li>Generate Projects Roadmap</li>
+                                    <li>Draft client email</li>
+                                    <li>Build weekly report</li>
+                                </ul>
+                                <span className="question">
+                                    Ask Flow AI anything
+                                    <FaArrowUp size="2em"/>
+                                </span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
             </div>            
         </div>
     );
