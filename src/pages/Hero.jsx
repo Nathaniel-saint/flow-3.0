@@ -16,6 +16,11 @@ import Spline from "@splinetool/react-spline";
 import '../styles/Hero.css'
 import { HiSparkles } from "react-icons/hi2";
 import { FaArrowUp } from "react-icons/fa";
+import { TbMicroscopeFilled } from "react-icons/tb";
+import { SiOmarchy } from "react-icons/si";
+import { GrTestDesktop } from "react-icons/gr";
+import { LuCircleDot } from "react-icons/lu";
+import { IoMdMegaphone } from "react-icons/io";
 
 
 
@@ -96,6 +101,14 @@ function Hero(){
                 <div className="roadmap-container">
                     <span className="feature-version">Roadmap</span>
                     <span className="feature-title">How We Got Here</span>
+
+                    <div className="timelines">
+                        <hr />
+                        <hr />
+                        <hr />
+                        <hr />
+                        <hr />
+                    </div>
                 </div>
                     <span className="feature-version">Changelog</span>
                     <span className="feature-title new">Everything That's New.</span>
