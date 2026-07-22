@@ -366,3 +366,77 @@
     padding: 0.4rem;
     border-radius: 1rem;
 }
+
+.timelines{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    justify-content: space-around;
+}
+
+.timelines hr{
+    width: 1px;
+    border-left: 1px white dotted;
+    border: none;
+    background-image: linear-gradient(to bottom, white 30%, rgba(255,255,255,0) 30%);
+    background-size: 100% 10px;
+    background-repeat: repeat-y;
+}
+
+.first-cont, .second-cont, .third-cont, .fourth-cont, .fifth-cont{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;
+    height: 20rem;
+    justify-content: space-around;
+    font-family: 'Roboto', serif;
+}
+
+.first-cont{
+    position: relative;
+    top: -3.3rem;
+    left: 5.2rem;
+}
+
+.second-cont{
+    position: relative;
+    top: -0.5rem;
+}
+
+.third-cont{
+    position: relative;
+    top: 7.3rem;
+    left: 9rem;
+}
+
+.fourth-cont{
+    position: relative;
+    top: 9.5rem;
+    left: 5rem;
+}
+
+.fifth-cont{
+    position: relative;
+    top: 12rem;
+    left: 2rem;
+}
+
+.fist1 {
+    width: 0.8rem; 
+    height: 0.8rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 6px rgb(185, 185, 185);
+}
+
+.first-iso, .second-iso{
+    background-color: #746dbd;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.first, .second, .third, .fourth, .fifth{
+    height: 10rem;
+}

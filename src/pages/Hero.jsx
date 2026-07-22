@@ -103,11 +103,44 @@ function Hero(){
                     <span className="feature-title">How We Got Here</span>
 
                     <div className="timelines">
-                        <hr />
-                        <hr />
-                        <hr />
-                        <hr />
-                        <hr />
+                        <div className="first-cont"> 
+                            <TbMicroscopeFilled size="2.4em" className="first-iso"/>
+                            <p className="month">January</p>
+                            <span className="acc-1">Research</span>
+                            <div className="fist1"></div>
+                            <hr className="first"/>
+                        </div>
+                        <div className="second-cont">
+                            <SiOmarchy size="2.2em" className="second-iso"/>
+                            <p className="month2">March</p>
+                            <span className="acc-1">Private Beta</span>
+                            <div className="fist1"></div>
+                            <hr className="second"/>
+                        </div>
+
+                        <div className="third-cont">
+                            <GrTestDesktop size="2.2em" className="second-iso"/>
+                            <p className="month">April</p>
+                            <span className="acc-1">5000 Testers</span>
+                            <div className="fist1"></div>
+                            <hr className="third"/>
+                        </div>
+
+                        <div className="fourth-cont">
+                            <LuCircleDot size="2.2em" className="second-iso"/>
+                            <p className="month">May</p>
+                            <span className="acc-1">Perf Rewrite</span>
+                            <div className="fist1"></div>
+                            <hr className="fourth"/>
+                        </div>
+
+                        <div className="fifth-cont">
+                            <IoMdMegaphone size="2.2em" className="second-iso"/>
+                            <p className="month">June</p>
+                            <span className="acc-1">Public Release</span>
+                            <div className="fist1"></div>
+                            <hr className="fifth"/>
+                        </div>
                     </div>
                 </div>
                     <span className="feature-version">Changelog</span>
